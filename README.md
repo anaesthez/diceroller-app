@@ -10,6 +10,7 @@ This simple mobile application allows users to roll a random number on a cube. I
 +	Programming Language: Kotlin
 +	Android SDK
 +	Room
++	Kotlin coroutines 
 +	Navigation Components
 +	Timber
 +	Custom View
