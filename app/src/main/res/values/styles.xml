@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="Dice20Style" >
+		<item name="android:textSize">40sp</item>
+		<item name="android:paddingStart">10dp</item>
+		<item name="android:paddingTop">10dp</item>
+	</style>
+
+	<style name="Dice4Style" >
+		<item name="android:textSize">45sp</item>
+		<item name="android:paddingTop">100dp</item>
+		<item name="android:paddingEnd">10dp</item>
+		<item name="android:layout_marginTop">100dp</item>
+	</style>
+
+</resources>

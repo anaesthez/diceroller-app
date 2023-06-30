@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cube_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="20"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/dice_to_roll"
+        android:src="@drawable/dice20_empty"/>
+
+    <TextView
+        android:id="@+id/dice_text"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        tools:text="45" />
+
+</merge>

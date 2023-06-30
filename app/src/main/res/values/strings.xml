@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Roll</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //history
+    <string name="your_result">for %s throws</string>
+    <string name="standard_value">0</string>
+    <string name="your_result_card">Your result was %s</string>
+
+    //buttons
+    <string name="decrement_button_text">-</string>
+    <string name="increment_button_text">+</string>
+    <string name="history_button_text">History</string>
+    <string name="cubes_button_text">Cubes</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="apply_button">Apply</string>
+
+    //content description
+    <string name="not_chosen_dice">This dice is no chosen</string>
+    <string name="chosen_dice">This dice is chosen</string>
+    <string name="background_for_buttons">background for buttons</string>
+    <string name="dice_to_roll">dice you are going to roll</string>
+
+    //cubes
+    <string name="your_cubes">Your cubes</string>
+
+    //roll
+    <string name="attention_text">1 or 2</string>
+    <string name="initial_value_counter">0</string>
+    <string name="save_button">Save</string>
+    <string name="enter_sides">Sides?</string>
+    <string name="invalid_input">Invalid input</string>
+    <string name="occupied_value">This value is occupied</string>
+    <string name="fragmenthistorybinding_null">FragmentHistoryBinding == null</string>
+    <string name="fragmentrollbinding_null">FragmentRollBinding == null</string>
+    <string name="fragmentaddbinding_null">FragmentAddBinding == null</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rollFragment">
+
+    <fragment
+        android:id="@+id/rollFragment"
+        android:name="ru.nesterov.diceroller.app.presentation.roll.RollFragment"
+        android:label="fragment_roll"
+        tools:layout="@layout/fragment_roll" >
+        <action
+            android:id="@+id/action_rollFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_rollFragment_to_cubesFragment"
+            app:destination="@id/cubesFragment" />
+        <action
+            android:id="@+id/action_rollFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="ru.nesterov.diceroller.app.presentation.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+
+    <dialog
+        android:id="@+id/cubesFragment"
+        android:name="ru.nesterov.diceroller.app.presentation.cubes.CubesFragment"
+        android:label="fragment_cubes"
+        tools:layout="@layout/fragment_cubes" />
+    <dialog
+        android:id="@+id/addFragment"
+        android:name="ru.nesterov.diceroller.app.presentation.roll.add.AddFragment"
+        android:label="AddFragment"
+        tools:layout="@layout/fragment_add"/>
+
+</navigation>

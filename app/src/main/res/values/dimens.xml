@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonHeight">50dp</dimen>
+    <dimen name="buttonWidth">150dp</dimen>
+    <dimen name="topMargin">15dp</dimen>
+    <dimen name="endMargin">15dp</dimen>
+    <dimen name="startMargin">10dp</dimen>
+    <dimen name="BottomMargin">10dp</dimen>
+    <dimen name="constraintGuideline">24dp</dimen>
+    <dimen name="imageWidth">100dp</dimen>
+    <dimen name="imageHeight">100dp</dimen>
+</resources>
